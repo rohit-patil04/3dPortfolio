@@ -5,6 +5,7 @@ import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { nav } from "framer-motion/client";
 const Navbar = () => {
+  
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
@@ -26,7 +27,7 @@ const Navbar = () => {
             <span className="sm:block font-bold ">Swastik</span> | Yadav
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden text-nowrap sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
