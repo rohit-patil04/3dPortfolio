@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-8  z-20 bg-[#050a208e]`}
+      className={`${styles.paddingX} w-full flex items-center py-5  z-20 bg-[#050a208e]`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -22,8 +22,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-         
-          <p className="text-white text-[18px] font-semibold  cursor-pointer">
+          <img src={logo} alt="logo" className="w-12 object-contain" />
+          <p className="text-white text-[17px] font-semibold  cursor-pointer">
             <span className="sm:block font-bold ">Swastik</span> | Yadav
           </p>
         </Link>
