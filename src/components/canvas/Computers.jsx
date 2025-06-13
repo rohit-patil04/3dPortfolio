@@ -41,7 +41,7 @@ const ComputersCanvas = () => {
   const [isMobile, setisMobile] = useState(false);
   useEffect(() => {
     // screen size change hone ke liye llistner
-    const mediaQuery = window.matchMedia("(max-width:500px)");
+    const mediaQuery = window.matchMedia("(max-width:640px)");
 
     // 'ismobile' variable bna kr uski value set kii
     setisMobile(mediaQuery.matches);
