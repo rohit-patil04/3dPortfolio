@@ -19,7 +19,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('https://ik.imagekit.io/bqzlidc77g/my%20portfolio/herobg.png?updatedAt=1749961111628')",
       },
     },
   },
