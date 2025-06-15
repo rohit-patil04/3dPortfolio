@@ -12,12 +12,15 @@
   "dependencies": {
     "@react-three/drei": "^10.0.7",
     "@react-three/fiber": "^9.1.2",
+    "canvas": "^3.1.0",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.11.0",
+    "prop-types": "^15.8.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-parallax-tilt": "^1.7.297",
     "react-router-dom": "^7.6.0",
+    "react-vertical-timeline-component": "^3.5.3",
     "three": "^0.176.0"
   },
   "devDependencies": {
