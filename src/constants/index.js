@@ -1,4 +1,4 @@
-    import {
+import {
   mobile,
   backend,
   creator,
@@ -34,6 +34,7 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
+
   {
     id: "contact",
     title: "Contact",
@@ -217,6 +218,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/",
+    live_website_link: "https://app.netlify.com/teams/gitswastik08/projects",
   },
   {
     name: "Job IT",
@@ -238,6 +240,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
+    live_website_link: "https://app.netlify.com/teams/gitswastik08/projects",
   },
   {
     name: "Trip Guide",
@@ -258,7 +261,10 @@ const projects = [
       },
     ],
     image: tripguide,
+    // github link ⬇️
     source_code_link: "https://github.com/",
+    // project link ⬇️
+    live_website_link: "https://app.netlify.com/teams/gitswastik08/projects",
   },
 ];
 

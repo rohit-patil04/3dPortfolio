@@ -1,5 +1,5 @@
 import React from "react";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF, Float } from "@react-three/drei";
 import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import CanvasLoader from "../Loader";
@@ -27,12 +27,19 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.5 : 0.75}
-        position={isMobile ? [0, -1.4, -1.2] : [0, -1.9, -1.5]}
-        rotation={isMobile ? [0, 0, -0.05] : [-0.01, -0.2, -0.05]}
-      />
+      <Float 
+       speed={2} // 🔁 Float animation speed
+  rotationIntensity={0.2} // 🔁 Slow subtle rotation
+  floatIntensity={1.5} // 🔁 How much it moves up/down
+  floatingRange={[0, 0]}
+      >
+        <primitive
+          object={computer.scene}
+          scale={isMobile ? 0.5 : 0.75}
+          position={isMobile ? [0, -1.6, -1.2] : [0, -2.6, -1.5]}
+          rotation={isMobile ? [0, 0, -0.05] : [-0.01, -0.2, -0.05]}
+        />
+      </Float>
     </mesh>
   );
 };
@@ -60,7 +67,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
@@ -68,6 +75,7 @@ const ComputersCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
+           enableRotate={true} 
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />

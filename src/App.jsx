@@ -9,6 +9,7 @@ import Feedbacks from "./components/Feedbacks";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Stars from "./components/canvas/Stars";
+import { StarsCanvas } from "./components/canvas";
 
 
 const App = () => {
@@ -23,8 +24,10 @@ const App = () => {
       <Tech />
       <Works />
       <Feedbacks />
-      <Contact />
-      <Stars />
+      <div className="relative z-0">
+        <Contact />
+      <StarsCanvas />
+      </div>
     </div>
   );
 };
