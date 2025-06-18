@@ -1,34 +1,36 @@
-import logo from "./logo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+const logo =
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/logo.png?updatedAt=1749961157002";
+const backend =
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/backend.png?updatedAt=1749961127387";
+const creator = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/creator.png?updatedAt=1749961125453";
+const mobile = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/mobile.png?updatedAt=1749961116254";
+const web = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/web.png?updatedAt=1749961126214";
+const github = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/github.png?updatedAt=1749965006566";
+const menu = "./menu.svg";
+const close = "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+const css = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/css.png?updatedAt=1749961104488";
+const docker = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/docker.png?updatedAt=1749961103144";
+const figma = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/figma.png?updatedAt=1749961103288";
+const git = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/git.png?updatedAt=1749961104346";
+const html = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/html.png?updatedAt=1749961104418";
+const javascript = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/javascript.png?updatedAt=1749961104755";
+const mongodb = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/mongodb.png?updatedAt=1749961104590";
+const nodejs = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/nodejs.png?updatedAt=1749961104709";
+const reactjs = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/reactjs.png?updatedAt=1749961105057";
+const redux = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/redux.png?updatedAt=1749961111710";
+const tailwind = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/tailwind.png?updatedAt=1749961111586";
+const typescript = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/typescript.png?updatedAt=1749961112627";
+const threejs = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/threejs.svg?updatedAt=1749961112674";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+const meta = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/meta.png?updatedAt=1749961112288";
+const shopify = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/shopify.png?updatedAt=1749961112545";
+const starbucks = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/starbucks.png?updatedAt=1749961112741";
+const tesla = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/tesla.png?updatedAt=1749961112753";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+const carrent = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/carrent.png?updatedAt=1749961151562";
+const jobit = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/jobit.png?updatedAt=1749961150488";
+const tripguide = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tripguide.png?updatedAt=1749961172334";
 
 export {
   logo,
