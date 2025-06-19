@@ -44,13 +44,14 @@ const meta =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/meta.png?updatedAt=1749961112288";
 const shopify =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/shopify.png?updatedAt=1749961112545";
-const starbucks =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/starbucks.png?updatedAt=1749961112741";
-const tesla =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/tesla.png?updatedAt=1749961112753";
 
-const carrent =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/carrent.png?updatedAt=1749961151562";
+const sheryians =
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/sheryians.jpg?updatedAt=1750261292267";
+const freelance =
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/company/images.png?updatedAt=1750261804051";
+
+const macbookpro =
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/MacbookPro_TGyn1EY09X.png?updatedAt=1750225807061";
 const jobit =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/jobit.png?updatedAt=1749961150488";
 const tripguide =
@@ -80,9 +81,9 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
-  carrent,
+ freelance,
+  sheryians,
+  macbookpro,
   jobit,
   tripguide,
 };

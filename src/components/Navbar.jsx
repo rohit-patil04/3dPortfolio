@@ -9,7 +9,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={`${styles.paddingX} w-full flex items-center py-3 z-20 bg-[#050a208e] fixed`}>
+    <nav
+      className={`${styles.paddingX} w-full flex items-center py-3 z-20 bg-[#050a208e] fixed`}
+    >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
@@ -19,7 +21,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-12 object-contain" />
+          <img
+            src="https://ik.imagekit.io/bqzlidc77g/my%20portfolio/Swastik_Yadav_logo.png?updatedAt=1750349700579"
+            alt="logo"
+            className="w-16 object-contain "
+          />
           <p className="text-white text-[17px] font-semibold cursor-pointer">
             <span className="sm:block font-bold">Swastik</span> | Yadav
           </p>
@@ -50,7 +56,6 @@ const Navbar = () => {
         </div>
       </div>
 
-    
       <div
         className={`fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-[#050816] shadow-lg transition-transform duration-300 z-40 ${
           toggle ? "translate-x-0" : "translate-x-full"
@@ -81,7 +86,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      
       {toggle && (
         <div
           onClick={() => setToggle(false)}
