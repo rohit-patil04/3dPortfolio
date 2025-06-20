@@ -24,7 +24,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-[4vw] object-contain "
+            className="w-16 object-contain "
           />
           <p className="text-white text-[17px] font-semibold cursor-pointer">
             <span className="sm:block font-bold">Swastik</span> | Yadav
