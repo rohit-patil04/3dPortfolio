@@ -16,11 +16,11 @@ import {
   figma,
   docker,
   meta,
- freelance,
+  freelance,
   shopify,
   sheryians,
   macbookpro,
-  jobit,
+  falverra,
   tripguide,
   threejs,
 } from "../assets";
@@ -188,26 +188,26 @@ const projects = [
     live_website_link: "https://macbookpro3d.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Falverra Redesign",
     description:
-      "A visually engaging website that showcases a redesigned MacBook Pro with smooth animations and a realistic 3D model, offering users an interactive and immersive way to explore the product’s look and features.",
+      "A sleek and animated website redesign for Falverra, combining a clean layout with smooth transitions to deliver an engaging, modern browsing experience that highlights the brand’s visual identity and message.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    live_website_link: "https://app.netlify.com/teams/gitswastik08/projects",
+    image: falverra,
+    source_code_link: "https://github.com/gitswastik08/falverra-redesign",
+    live_website_link: "https://falverra-recode.netlify.app/",
   },
   {
     name: "Trip Guide",

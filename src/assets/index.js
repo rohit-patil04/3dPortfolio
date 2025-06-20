@@ -52,8 +52,8 @@ const freelance =
 
 const macbookpro =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/MacbookPro_TGyn1EY09X.png?updatedAt=1750225807061";
-const jobit =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/jobit.png?updatedAt=1749961150488";
+const falverra =
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/Screenshot%202025-06-21%20015159.png?updatedAt=1750451051537";
 const tripguide =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tripguide.png?updatedAt=1749961172334";
 
@@ -84,6 +84,6 @@ export {
  freelance,
   sheryians,
   macbookpro,
-  jobit,
+  falverra,
   tripguide,
 };
