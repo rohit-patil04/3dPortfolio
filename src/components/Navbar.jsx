@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-3 z-20 bg-[#050a208e] fixed`}
+      className={`${styles.paddingX} w-full flex items-center py-2 z-20 bg-[#050a208e] fixed`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -22,9 +22,9 @@ const Navbar = () => {
           }}
         >
           <img
-            src="https://ik.imagekit.io/bqzlidc77g/my%20portfolio/Swastik_Yadav_logo.png?updatedAt=1750349700579"
+            src={logo}
             alt="logo"
-            className="w-16 object-contain "
+            className="w-[4vw] object-contain "
           />
           <p className="text-white text-[17px] font-semibold cursor-pointer">
             <span className="sm:block font-bold">Swastik</span> | Yadav

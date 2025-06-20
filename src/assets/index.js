@@ -1,5 +1,5 @@
 const logo =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/logo.png?updatedAt=1749961157002";
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/Swastik_Yadav_logo.png?updatedAt=1750349700579";
 const backend =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/backend.png?updatedAt=1749961127387";
 const creator =
