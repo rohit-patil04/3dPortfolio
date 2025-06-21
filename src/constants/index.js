@@ -201,7 +201,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "gsap",
+        name: "multi-page",
         color: "green-text-gradient",
       },
     ],
