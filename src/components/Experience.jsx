@@ -9,7 +9,6 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{ background: "#1d1836", color: "#fff" }}
@@ -19,9 +18,14 @@ const ExperienceCard = ({ experience }) => (
     icon={
       <div className="w-full h-full flex items-center justify-center">
         <img
-          src={experience.icon}
+          src={`${experience.icon}${
+            experience.icon.includes("?") ? "&" : "?"
+          }tr=f-auto`}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain  "
+          loading="lazy"
+          width="60%"
+          height="60%"
+          className="w-[60%] h-[60%] object-contain"
         />
       </div>
     }

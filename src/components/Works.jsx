@@ -6,7 +6,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { github } from "../assets";
 
-
 const ProjectCard = ({
   index,
   name,
@@ -33,12 +32,13 @@ const ProjectCard = ({
           }}
         >
           <img
-            src={image}
+            src={`${image}${image.includes("?") ? "&" : "?"}tr=f-auto`}
             alt={name}
+            loading="lazy"
             className="w-full h-full object-cover rounded-2xl"
           />
+
           <div className="absolute  inset-0 flex justify-end mt-3 card-img_hover">
-          
             <div
               onClick={() => {
                 window.open(source_code_link, "_blank");
@@ -46,8 +46,11 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex items-center justify-center cursor-pointer"
             >
               <img
-                src={github}
-                alt={github}
+                src={`${github}${github.includes("?") ? "&" : "?"}tr=f-auto`}
+                alt="GitHub Icon"
+                loading="lazy"
+                width="50%"
+                height="50%"
                 className="object-contain w-1/2 h-1/2"
               />
             </div>

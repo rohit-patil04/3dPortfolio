@@ -10,7 +10,9 @@ import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 
 const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
+  const optimizedUrl = `${props.imgUrl}${props.imgUrl.includes("?") ? "&" : "?"}tr=f-auto`;
+  const [decal] = useTexture([optimizedUrl]);
+
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
@@ -23,7 +25,6 @@ const Ball = (props) => {
           polygonOffsetFactor={-5}
           flatShading
         />
-
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
@@ -34,6 +35,7 @@ const Ball = (props) => {
     </Float>
   );
 };
+
 
 const BallCanvas = ({ icon }) => {
   return (

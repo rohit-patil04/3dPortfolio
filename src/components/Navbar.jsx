@@ -22,9 +22,12 @@ const Navbar = () => {
           }}
         >
           <img
-            src={logo}
+            src={`${logo}${logo.includes("?") ? "&" : "?"}tr=f-auto`}
             alt="logo"
+            loading="lazy"
             className="w-16 object-contain "
+            width={64}
+            height={64}
           />
           <p className="text-white text-[17px] font-semibold cursor-pointer">
             <span className="sm:block font-bold">Swastik</span> | Yadav
@@ -48,10 +51,13 @@ const Navbar = () => {
         {/* Mobile menu icon */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
-            src={toggle ? close : menu}
+            src={`${(toggle ? close : menu)}${(toggle ? close : menu).includes("?") ? "&" : "?"}tr=f-auto`}
             alt="menu"
+            loading="lazy"
             className="w-[28px] object-contain cursor-pointer"
             onClick={() => setToggle(!toggle)}
+            width={28}
+            height={28}
           />
         </div>
       </div>
@@ -64,10 +70,13 @@ const Navbar = () => {
         <div className="flex flex-col gap-8 p-6">
           <div className="w-full flex items-center justify-end">
             <img
-              src={close}
+              src={`${close}${close.includes("?") ? "&" : "?"}tr=f-auto`}
               alt="close"
+              loading="lazy"
               className="w-[24px] h-[24px] object-contain cursor-pointer"
               onClick={() => setToggle(false)}
+              width={24}
+              height={24}
             />
           </div>
 
