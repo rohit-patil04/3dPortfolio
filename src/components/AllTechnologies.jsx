@@ -17,10 +17,11 @@ const AllTechnologies = () => {
         <h2 className={styles.sectionHeadText}>Technologies</h2>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center gap-10">
+      <div className="flex flex-wrap justify-center gap-14">
         {technologies.map((tech) => (
-          <div className="sm:w-36 w-28 h-28 sm:h-36" key={tech.name}>
-            <BallCanvas icon={tech.icon} />
+          <div className="sm:w-36 w-28 h-28 sm:h-36 flex flex-col items-center" key={tech.name}>
+            <img src={tech.icon} alt={tech.name} />
+            <h1>{tech.name}</h1>
           </div>
         ))}
       </div>
