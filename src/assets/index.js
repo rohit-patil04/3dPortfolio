@@ -10,8 +10,8 @@ const web =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/web.png?updatedAt=1749961126214";
 const github =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/github.png?updatedAt=1749965006566";
-import menu from "./menu.svg";
-import close from "./close.svg";
+const menu = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/menu.svg?updatedAt=1750672543556";
+const close = "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/close.svg?updatedAt=1750672511348";
 
 const css =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/css.png?updatedAt=1749961104488";
