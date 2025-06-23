@@ -35,7 +35,7 @@ export const navLinks = [
     title: "experience",
   },
 
-   {
+  {
     id: "skills",
     title: "skills",
   },
@@ -67,12 +67,16 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "React JS",
+    icon: reactjs,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
   },
   {
     name: "JavaScript",
@@ -80,29 +84,29 @@ const technologies = [
   },
 
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Node JS",
+    icon: nodejs,
   },
+
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+
   {
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
