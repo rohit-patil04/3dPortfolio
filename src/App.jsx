@@ -1,34 +1,13 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Experience from "./components/Experience";
-import Tech from "./components/Tech";
-import Works from "./components/Works";
-import Feedbacks from "./components/Feedbacks";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Stars from "./components/canvas/Stars";
-import { StarsCanvas } from "./components/canvas";
-
+import { Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import AllTechnologies from "./components/AllTechnologies"; // for /techstack
 
 const App = () => {
   return (
-    <div className="relative z-0 bg-[#050816] ">
-      <div className=" bg-hero-pattern bg-no-repeat bg-cover bg-center">
-        <Navbar />
-        <Hero />
-      </div>
-      <About />
-      <Experience />
-      <Tech />
-      <Works />
-      {/* <Feedbacks /> */}
-      <div className="relative z-0">
-        <Contact />
-      <StarsCanvas />
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/all-technologies" element={<AllTechnologies/>} />
+    </Routes>
   );
 };
 
