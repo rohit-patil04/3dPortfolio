@@ -15,7 +15,7 @@ import { StarsCanvas } from "./components/canvas";
 const App = () => {
   return (
     <div className="relative z-0 bg-[#050816] ">
-      <div className=" bg-no-repeat bg-cover bg-center">
+      <div className=" bg-hero-pattern bg-no-repeat bg-cover bg-center">
         <Navbar />
         <Hero />
       </div>
