@@ -14,17 +14,17 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 const css =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/figma.png?updatedAt=1749961103288";
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/css.png?updatedAt=1749961104488";
 const docker =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/figma.png?updatedAt=1749961103288";
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/docker.png?updatedAt=1749961103144";
 const figma =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/figma.png?updatedAt=1749961103288";
 const git =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/git.png?updatedAt=1749961104346";
 const html =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/figma.png?updatedAt=1749961103288";
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/html.png?updatedAt=1749961104418";
 const javascript =
-  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/figma.png?updatedAt=1749961103288";
+  "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/javascript.png?updatedAt=1749961104755";
 const mongodb =
   "https://ik.imagekit.io/bqzlidc77g/my%20portfolio/tech/mongodb.png?updatedAt=1749961104590";
 const nodejs =
