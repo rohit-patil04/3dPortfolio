@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
-          className="flex items-center gap-3"
+          className="flex items-center gap-0"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
@@ -30,7 +30,7 @@ const Navbar = () => {
             height={64}
           />
           <p className="text-white text-[17px] font-semibold cursor-pointer">
-            <span className="sm:block font-bold">Swastik</span> | Yadav
+            <span className="sm:block  font-bold">Swastik</span> | Yadav
           </p>
         </Link>
 
